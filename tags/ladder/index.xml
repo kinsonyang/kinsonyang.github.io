@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ladder on LADDER</title><link>https://kinsonyang.github.io/tags/ladder/</link><description>Recent content in Ladder on LADDER</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>iguangzhengli@gmail.com (Guangzheng Li)</managingEditor><webMaster>iguangzhengli@gmail.com (Guangzheng Li)</webMaster><copyright>2023 GuangzhengLi All rights reserved</copyright><lastBuildDate>Sat, 20 Aug 2022 21:34:36 +0800</lastBuildDate><atom:link href="https://kinsonyang.github.io/tags/ladder/index.xml" rel="self" type="application/rss+xml"/><item><title>Ladder Guide</title><link>https://kinsonyang.github.io/blog/ladder-guide/</link><pubDate>Sat, 20 Aug 2022 21:34:36 +0800</pubDate><author>iguangzhengli@gmail.com (Guangzheng Li)</author><guid>https://kinsonyang.github.io/blog/ladder-guide/</guid><description>&lt;p&gt;This article is a link to all the tutorials.&lt;/p&gt;
+&lt;h2 id="basic-usage"&gt;Basic Usage&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://kinsonyang.github.io/blog/quick-start/"&gt;Quick Start&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://kinsonyang.github.io/blog/configurations/"&gt;Configurations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="extra-guides"&gt;Extra Guides&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://kinsonyang.github.io/blog/multi-language/"&gt;Multi Language&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://kinsonyang.github.io/blog/comment-system/"&gt;Comment System&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://kinsonyang.github.io/blog/analytics/"&gt;Analytics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://kinsonyang.github.io/blog/how-to-integrate-umami-for-free-to-blog-site/"&gt;Analytics Umami&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="series-guides"&gt;Series Guides&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://guangzhengli.com/blog/en/how-to-create-your-blog-for-free-in-10min/"&gt;How to create your blog for free in 10min&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://guangzhengli.com/blog/en/how-to-create-your-blog-for-free-by-hugo-ladder-in-30min/"&gt;how-to-create-your-blog-for-free-by-hugo-ladder-in-30min&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Qucik Start</title><link>https://kinsonyang.github.io/blog/quick-start/</link><pubDate>Fri, 19 Aug 2022 21:34:36 +0800</pubDate><author>iguangzhengli@gmail.com (Guangzheng Li)</author><guid>https://kinsonyang.github.io/blog/quick-start/</guid><description>&lt;p&gt;This article is about how to quickly install and use this theme.&lt;/p&gt;
+&lt;h2 id="how-to-install"&gt;how to install&lt;/h2&gt;
+&lt;p&gt;Just click &lt;code&gt;Use this template&lt;/code&gt; to create your blog site in &lt;a href="https://github.com/guangzhengli/hugo-ladder-exampleSite"&gt;https://github.com/guangzhengli/hugo-ladder-exampleSite&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/4dmtph.png" alt="4dmtph"&gt;&lt;/p&gt;
+&lt;p&gt;Create a new repository(GitHub Pages) from hugo-ladder-exampleSite to enter : &lt;code&gt;username.github.io&lt;/code&gt;. &lt;strong&gt;replace the username by your GitHub account.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Then configure the GitHub page setting following:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/nsrExo.png" alt="nsrExo"&gt;&lt;/p&gt;
+&lt;p&gt;🎉🎉🎉 Open the browser and enter: &lt;a href="https://username.github.io"&gt;https://username.github.io&lt;/a&gt; 🎉🎉🎉&lt;/p&gt;</description></item><item><title>Analytics</title><link>https://kinsonyang.github.io/blog/analytics/</link><pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate><author>iguangzhengli@gmail.com (Guangzheng Li)</author><guid>https://kinsonyang.github.io/blog/analytics/</guid><description>&lt;p&gt;This article is about how to integrate website statistics analysis.&lt;/p&gt;
+&lt;h2 id="analytics"&gt;Analytics&lt;/h2&gt;
+&lt;h2 id="google-analytics"&gt;Google Analytics&lt;/h2&gt;
+&lt;p&gt;Follow &lt;a href="https://gohugo.io/templates/internal/#configure-google-analytics"&gt;these steps&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id="google-tag-manager"&gt;Google Tag Manager&lt;/h3&gt;
+&lt;p&gt;Follow &lt;a href="https://developers.google.com/tag-manager"&gt;these steps&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-yml" data-lang="yml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;params&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;analytics&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;google&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;SiteVerificationTag&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;gid&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="umami-analytics"&gt;Umami Analytics&lt;/h3&gt;
+&lt;p&gt;Follow &lt;a href="https://guangzhengli.com/blog/en/how-to-integrate-umami-for-free-to-blog-site/"&gt;these steps&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-yml" data-lang="yml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;params&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;analytics&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;umami&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;enable&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;website_id&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;data-website-id&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;url&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;https://umami-ochre-nu.vercel.app/hugo-ladder.js&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Comment Systems</title><link>https://kinsonyang.github.io/blog/comment-system/</link><pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate><author>iguangzhengli@gmail.com (Guangzheng Li)</author><guid>https://kinsonyang.github.io/blog/comment-system/</guid><description>&lt;p&gt;This article is about how to integrate comment systems.&lt;/p&gt;
+&lt;h3 id="comment-systems"&gt;Comment Systems&lt;/h3&gt;
+&lt;p&gt;Comments are displayed within post pages and guestbook.&lt;/p&gt;
+&lt;h4 id="giscus"&gt;Giscus&lt;/h4&gt;
+&lt;p&gt;Follow &lt;a href="https://giscus.app/"&gt;these steps&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-yml" data-lang="yml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;params&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;comments&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;giscus&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;enable&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;repo&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;username/reponame&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;repo_id&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Rid&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;category&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Announcements&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;category_id&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;DIC_id&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;mapping&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;pathname&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;position&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;top&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;lang&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;en&lt;/span&gt; &lt;span style="color:#75715e"&gt;# pick a language from https://github.com/giscus/giscus/tree/main/locales&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="utterances"&gt;Utterances&lt;/h4&gt;
+&lt;p&gt;Follow &lt;a href="https://utteranc.es/"&gt;these steps&lt;/a&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-yml" data-lang="yml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;params&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;comments&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;utteranc&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;enable&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;repo&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;username/reponame&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;issueTerm&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;pathname&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Configurations</title><link>https://kinsonyang.github.io/blog/configurations/</link><pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate><author>iguangzhengli@gmail.com (Guangzheng Li)</author><guid>https://kinsonyang.github.io/blog/configurations/</guid><description>&lt;p&gt;This article about how to configure this theme, and manage the content of the articles created.&lt;/p&gt;
+&lt;h2 id="mini-configuration"&gt;Mini Configuration&lt;/h2&gt;
+&lt;p&gt;Open the &lt;code&gt;config.yml&lt;/code&gt; file in the root directory with an editor and change the configuration as follows:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-yml" data-lang="yml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;baseURL&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#39;https://hugo-ladder.pages.dev&amp;#39;&lt;/span&gt; &lt;span style="color:#75715e"&gt;# set https://username.github.io&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;homepage&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#39;https://hugo-ladder.pages.dev&amp;#39;&lt;/span&gt; &lt;span style="color:#75715e"&gt;# set https://username.github.io&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;defaultContentLanguage&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#39;en&amp;#39;&lt;/span&gt; &lt;span style="color:#75715e"&gt;#default language&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;params&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;brand&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;HOME&lt;/span&gt; &lt;span style="color:#75715e"&gt;# set the brand of your site&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;avatarURL&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;/images/avatar.png&lt;/span&gt; &lt;span style="color:#75715e"&gt;# avatar, replace your avatar in the /static/images/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;author&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Hugo Ladder&lt;/span&gt; &lt;span style="color:#75715e"&gt;# name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;authorDescription&lt;/span&gt;: &lt;span style="color:#75715e"&gt;# description&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;info&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;this is a info&lt;/span&gt; &lt;span style="color:#75715e"&gt;# information of your blog site&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;favicon&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;/images/avatar.png&lt;/span&gt; &lt;span style="color:#75715e"&gt;# blog site icon，replace your avatar in the /static/images/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;options&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;showDarkMode&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;true&lt;/span&gt; &lt;span style="color:#75715e"&gt;# is show dark mode button&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;enableMultiLang&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;true&lt;/span&gt; &lt;span style="color:#75715e"&gt;# is show multi language button&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id="configurations"&gt;Configurations&lt;/h1&gt;
+&lt;h2 id="about-hugo-configurations"&gt;About Hugo Configurations&lt;/h2&gt;
+&lt;p&gt;This theme supports:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Analytics
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://developers.google.com/analytics"&gt;Google Analytics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://developers.google.com/tag-manager"&gt;Google Tag Manager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://umami.is/"&gt;umami&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Commenting Systems
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://giscus.app/"&gt;Giscus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://utteranc.es/"&gt;Utterances&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="analytics"&gt;Analytics&lt;/h3&gt;
+&lt;h4 id="google-analytics"&gt;Google Analytics&lt;/h4&gt;
+&lt;p&gt;Follow &lt;a href="https://gohugo.io/templates/internal/#configure-google-analytics"&gt;these steps&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id="google-tag-manager"&gt;Google Tag Manager&lt;/h4&gt;
+&lt;p&gt;Follow &lt;a href="https://developers.google.com/tag-manager"&gt;these steps&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-yml" data-lang="yml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;params&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;analytics&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;google&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;SiteVerificationTag&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;gid&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="umami-analytics"&gt;Umami Analytics&lt;/h4&gt;
+&lt;p&gt;Follow &lt;a href="https://guangzhengli.com/blog/en/how-to-integrate-umami-for-free-to-blog-site/"&gt;these steps&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-yml" data-lang="yml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;params&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;analytics&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;umami&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;enable&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;website_id&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;data-website-id&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;url&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;https://umami-ochre-nu.vercel.app/hugo-ladder.js&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="commenting-systems"&gt;Commenting Systems&lt;/h3&gt;
+&lt;p&gt;Comments are displayed within post pages and guestbook.&lt;/p&gt;
+&lt;h4 id="giscus"&gt;Giscus&lt;/h4&gt;
+&lt;p&gt;Follow &lt;a href="https://giscus.app/"&gt;these steps&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-yml" data-lang="yml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;params&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;comments&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;giscus&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;enable&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;repo&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;username/reponame&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;repo_id&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Rid&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;category&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Announcements&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;category_id&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;DIC_id&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;mapping&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;pathname&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;position&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;top&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;lang&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;en&lt;/span&gt; &lt;span style="color:#75715e"&gt;# pick a language from https://github.com/giscus/giscus/tree/main/locales&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="utterances"&gt;Utterances&lt;/h4&gt;
+&lt;p&gt;Follow &lt;a href="https://utteranc.es/"&gt;these steps&lt;/a&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-yml" data-lang="yml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;params&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;comments&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;utteranc&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;enable&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;repo&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;username/reponame&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;issueTerm&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;pathname&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="theme-parameters"&gt;Theme Parameters&lt;/h2&gt;
+&lt;p&gt;These are all the parameters used by &lt;code&gt;hugo-coder&lt;/code&gt; theme.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Type&lt;/th&gt;
+&lt;th&gt;Required&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;th&gt;Default&lt;/th&gt;
+&lt;th&gt;Example&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;baseURL&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Website URL&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;https://username.github.io&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;title&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Website Name&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;Ladder&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;theme&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;theme name, not change&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;hugo-theme-ladder&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;hugo-theme-ladder&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;license&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;License&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;MIT&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;MIT&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;licenselink&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;License URL&lt;/td&gt;
+&lt;td&gt;&amp;lsquo;&amp;ldquo;&lt;a href="https://github.com/guangzhengli/hugo-theme-ladder/blob/master/LICENSE%22%27"&gt;https://github.com/guangzhengli/hugo-theme-ladder/blob/master/LICENSE"'&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&amp;lsquo;&amp;ldquo;&lt;a href="https://github.com/guangzhengli/hugo-theme-ladder/blob/master/LICENSE%22%27"&gt;https://github.com/guangzhengli/hugo-theme-ladder/blob/master/LICENSE"'&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;description&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;Website Description&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;'A fast, clean Hugo theme'&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;defaultContentLanguage&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Website default language&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;en&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;en&amp;quot;&lt;/code&gt; or &lt;code&gt;&amp;quot;zh&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;googleAnalytics&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;google analytics&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;G-xxx&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;G-xxx&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;enableRobotsTXT&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;enable robots.txt&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;true&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;true&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;paginate&lt;/td&gt;
+&lt;td&gt;number&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Default paginate&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;params.brand&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;brand&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;HOME&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;LADDER&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;params.avatarURL&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;Gravatar photo of the author&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;/images/avatar.png&amp;quot;&lt;/code&gt; &lt;code&gt;replace the photo or change the path&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;/images/avatar.png&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;params.author&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;Home page author name&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;Hugo Ladder&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;Hugo Ladder&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;params.authorDescription&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;Home page author description&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;A clean, fast hugo theme focused on Reading&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;A clean, fast hugo theme focused on Reading&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;params.info&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;Home page website info&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;Ladder is a clean, simple but beautiful theme with awesome features&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;Ladder is a clean, simple but beautiful theme with awesome features&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;params.favicon&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;icon photo of the website&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;/images/avatar.png&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;/images/avatar.png&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;params.options.showDarkMode&lt;/td&gt;
+&lt;td&gt;bool&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;enable dark mode button in nav&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;true&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;true&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;params.options.enableImgZooming&lt;/td&gt;
+&lt;td&gt;bool&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;enable zooming when click img within post&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;true&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;true&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;params.options.enableMultiLang&lt;/td&gt;
+&lt;td&gt;bool&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;enable multi-language support&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;true&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;false&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;params.darkModeTheme&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;td&gt;Adds theme for dark mode&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;data-dark-mode&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;data-dark-mode&lt;/code&gt; or &lt;code&gt;icy-dark-mode&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;params.guestbook.title&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;guestbooke title&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;Guestbook&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;Guestbook&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;params.guestbook.description&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;guestbooke description&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;Leave a comment below. It could be anything –- question, appreciation, information, or even humor.&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;Leave a comment below. It could be anything –- question, appreciation, information, or even humor.&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;taxonomies.series&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;enable series&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;series&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;series&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ptaxonomies.tags&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;enable tags&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;tags&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;tags&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="social-icons-configuration"&gt;Social Icons Configuration&lt;/h3&gt;
+&lt;p&gt;Social Icons are optional. To use them you will need to set at least all the following required parameters for each icon.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Configuration&lt;/th&gt;
+&lt;th&gt;Type&lt;/th&gt;
+&lt;th&gt;Required&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;th&gt;Example&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;name&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Icon name.&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;Github&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;pre&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;icon svg.&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;find in https://feathericons.com/&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;url&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;URL to redirect.&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;https://github.com/guangzhengli/&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;An example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-yml" data-lang="yml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;social&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;name&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;GitHub&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;pre&lt;/span&gt;: &amp;gt;-&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; &amp;lt;svg xmlns=&amp;#34;http://www.w3.org/2000/svg&amp;#34; width=&amp;#34;20&amp;#34; height=&amp;#34;20&amp;#34; viewBox=&amp;#34;0 0 24 24&amp;#34; fill=&amp;#34;none&amp;#34; stroke=&amp;#34;currentColor&amp;#34; stroke-width=&amp;#34;2&amp;#34; stroke-linecap=&amp;#34;round&amp;#34; stroke-linejoin=&amp;#34;round&amp;#34; class=&amp;#34;feather feather-github&amp;#34;&amp;gt;&amp;lt;path d=&amp;#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&amp;#34;&amp;gt;&amp;lt;/path&amp;gt;&amp;lt;/svg&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;url&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#39;https://github.com/guangzhengli/hugo-theme-ladder&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;name&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Dashboard&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;pre&lt;/span&gt;: &amp;gt;-&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; &amp;lt;svg xmlns=&amp;#34;http://www.w3.org/2000/svg&amp;#34; width=&amp;#34;20&amp;#34; height=&amp;#34;20&amp;#34; viewBox=&amp;#34;0 0 24 24&amp;#34; fill=&amp;#34;none&amp;#34; stroke=&amp;#34;currentColor&amp;#34; stroke-width=&amp;#34;2&amp;#34; stroke-linecap=&amp;#34;round&amp;#34; stroke-linejoin=&amp;#34;round&amp;#34; class=&amp;#34;feather feather-box&amp;#34;&amp;gt;&amp;lt;path d=&amp;#34;M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z&amp;#34;&amp;gt;&amp;lt;/path&amp;gt;&amp;lt;polyline points=&amp;#34;3.27 6.96 12 12.01 20.73 6.96&amp;#34;&amp;gt;&amp;lt;/polyline&amp;gt;&amp;lt;line x1=&amp;#34;12&amp;#34; y1=&amp;#34;22.08&amp;#34; x2=&amp;#34;12&amp;#34; y2=&amp;#34;12&amp;#34;&amp;gt;&amp;lt;/line&amp;gt;&amp;lt;/svg&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;url&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#39;https://umami-ochre-nu.vercel.app/share/R1lHz7QY/hugo-ladder-exampleSite&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="menu-items-configurations"&gt;Menu Items Configurations&lt;/h3&gt;
+&lt;p&gt;Menu Items are optional. To use them you will need to set all the following required parameters for each icon.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Configuration&lt;/th&gt;
+&lt;th&gt;Type&lt;/th&gt;
+&lt;th&gt;Required&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;th&gt;Example&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;name&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Menu Item name.&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;Blog&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;weight&lt;/td&gt;
+&lt;td&gt;int&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Menu Item order.&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;1&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;url&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;URL to redirect.&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;/blog&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;An example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-yml" data-lang="yml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;menu&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;main&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;name&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Blog&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;url&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;/blog&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;weight&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;name&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Tags&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;url&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;/tags&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;weight&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;name&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Archive&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;url&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;/archives&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;weight&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;name&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Guestbook&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;url&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;/guestbook&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;weight&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;name&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Dashboard&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;url&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;https://umami-ochre-nu.vercel.app/share/R1lHz7QY/hugo-ladder-exampleSite&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;weight&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="complete-example"&gt;Complete Example&lt;/h2&gt;
+&lt;p&gt;This is a complete configuration example with some recommended values.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-yml" data-lang="yml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;baseURL&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#39;https://hugo-ladder.pages.dev&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;title&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;LADDER&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;theme&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;hugo-theme-ladder&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;license&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;MIT&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;licenselink&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#39;https://github.com/guangzhengli/hugo-theme-ladder/blob/master/LICENSE&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;description&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#39;A fast, clean Hugo theme&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;homepage&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#39;https://hugo-ladder.pages.dev&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;defaultContentLanguage&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#39;en&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;googleAnalytics&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;G-4WXJ5TEK2S&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;paginate&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;10&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;menu&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;main&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;name&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Blog&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;url&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;/blog&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;weight&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;name&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Tags&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;url&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;/tags&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;weight&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;name&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Archive&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;url&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;/archives&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;weight&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;name&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Guestbook&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;url&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;/guestbook&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;weight&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;name&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Dashboard&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;url&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;https://umami-ochre-nu.vercel.app/share/R1lHz7QY/hugo-ladder-exampleSite&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;weight&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;params&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;brand&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;HOME&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;avatarURL&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;/images/avatar.png&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;author&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Hugo Ladder&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;authorDescription&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;A clean, fast hugo theme focused on Reading&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;info&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Ladder is a clean, simple but beautiful theme with awesome features&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;favicon&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;/images/avatar.png&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;options&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;showDarkMode&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;enableImgZooming&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;enableMultiLang&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;darkModeTheme&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;data-dark-mode&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;#darkModeTheme: icy-dark-mode&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;comments&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;giscus&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;enable&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;repo&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;guangzhengli/hugo-ladder-exampleSite&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;repo_id&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;R_kgDOHyVOjg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;category&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Announcements&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;category_id&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;DIC_kwDOHyVOjs4CQsH7&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;mapping&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;pathname&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;position&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;top&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;lang&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;en&lt;/span&gt; &lt;span style="color:#75715e"&gt;# pick a language from https://github.com/giscus/giscus/tree/main/locales&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;utteranc&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;enable&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;repo&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;guangzhengli/blog-comments&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;issueTerm&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;pathname&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;analytics&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;google&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;SiteVerificationTag&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;xxx&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;umami&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;enable&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;website_id&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;2320eaa6-a90b-471c-b6ca-e79dadde8c4c&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;url&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;https://umami-ochre-nu.vercel.app/hugo-ladder.js&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;guestbook&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;title&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Guestbook&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;description&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Leave a comment below. It could be anything –- question, appreciation, information, or even humor.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;social&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;name&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;GitHub&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;pre&lt;/span&gt;: &amp;gt;-&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; &amp;lt;svg xmlns=&amp;#34;http://www.w3.org/2000/svg&amp;#34; width=&amp;#34;20&amp;#34; height=&amp;#34;20&amp;#34; viewBox=&amp;#34;0 0 24 24&amp;#34; fill=&amp;#34;none&amp;#34; stroke=&amp;#34;currentColor&amp;#34; stroke-width=&amp;#34;2&amp;#34; stroke-linecap=&amp;#34;round&amp;#34; stroke-linejoin=&amp;#34;round&amp;#34; class=&amp;#34;feather feather-github&amp;#34;&amp;gt;&amp;lt;path d=&amp;#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&amp;#34;&amp;gt;&amp;lt;/path&amp;gt;&amp;lt;/svg&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;url&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#39;https://github.com/guangzhengli/hugo-theme-ladder&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;name&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Dashboard&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;pre&lt;/span&gt;: &amp;gt;-&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; &amp;lt;svg xmlns=&amp;#34;http://www.w3.org/2000/svg&amp;#34; width=&amp;#34;20&amp;#34; height=&amp;#34;20&amp;#34; viewBox=&amp;#34;0 0 24 24&amp;#34; fill=&amp;#34;none&amp;#34; stroke=&amp;#34;currentColor&amp;#34; stroke-width=&amp;#34;2&amp;#34; stroke-linecap=&amp;#34;round&amp;#34; stroke-linejoin=&amp;#34;round&amp;#34; class=&amp;#34;feather feather-box&amp;#34;&amp;gt;&amp;lt;path d=&amp;#34;M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z&amp;#34;&amp;gt;&amp;lt;/path&amp;gt;&amp;lt;polyline points=&amp;#34;3.27 6.96 12 12.01 20.73 6.96&amp;#34;&amp;gt;&amp;lt;/polyline&amp;gt;&amp;lt;line x1=&amp;#34;12&amp;#34; y1=&amp;#34;22.08&amp;#34; x2=&amp;#34;12&amp;#34; y2=&amp;#34;12&amp;#34;&amp;gt;&amp;lt;/line&amp;gt;&amp;lt;/svg&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;url&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#39;https://umami-ochre-nu.vercel.app/share/R1lHz7QY/hugo-ladder-exampleSite&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;languages&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;en&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;languageName&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;EN&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;zh&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;languageName&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;中&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;author&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Ladder 主题&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;authorDescription&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;一个美观，快速并且专注于阅读的主题&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;info&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;帮助开发者构建一个免费并且漂亮的博客网站，记录自己的思考并且提高自己的影响力&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;guestbook&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;title&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;留言板&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;description&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;您的评论，会让该网站更精彩！&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;menu&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;main&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;name&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;文章&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;url&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;/blog&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;weight&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;name&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;分类&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;url&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;/tags&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;weight&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;name&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;历史文章&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;url&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;/archives&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;weight&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;name&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;留言板&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;url&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;/guestbook&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;weight&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;name&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;网站统计&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;url&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;https://umami-ochre-nu.vercel.app/share/R1lHz7QY/hugo-ladder-exampleSite&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;weight&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;taxonomies&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;series&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;series&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;tag&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;tags&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="content-management"&gt;Content Management&lt;/h2&gt;
+&lt;p&gt;If you create a new posts, it is recommended to fill the configuration which means:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;title:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;date: {{ .Date }}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;tags: []
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;series: []
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;featured: true
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;title&lt;/code&gt; post title&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;date&lt;/code&gt; published date&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;tags&lt;/code&gt; tags&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;series&lt;/code&gt; series, it will be show related post below the content.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;featured&lt;/code&gt; it will be show in home page featured post, &lt;code&gt;true&lt;/code&gt; or &lt;code&gt;false&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>How to integrate umami to your website for free</title><link>https://kinsonyang.github.io/blog/how-to-integrate-umami-for-free-to-blog-site/</link><pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate><author>iguangzhengli@gmail.com (Guangzheng Li)</author><guid>https://kinsonyang.github.io/blog/how-to-integrate-umami-for-free-to-blog-site/</guid><description>&lt;p&gt;This article is about how to integrate &lt;a href="https://umami.is/"&gt;umami&lt;/a&gt; website analytics to your website for free. The database use &lt;a href="https://supabase.com/docs/guides/database"&gt;postgres&lt;/a&gt; with 500M storage limit provided by &lt;a href="https://app.supabase.com/"&gt;supabase&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;a href="https://umami.is/"&gt;umami&lt;/a&gt; service is hosted with &lt;a href="https://vercel.com/"&gt;vercel&lt;/a&gt;. Thanks to the excellent service capabilities of cloud vendors, you can integrate &lt;em&gt;umami&lt;/em&gt; in less than 10 minutes. You can see the umami dashboard by clicking the &lt;a href="https://umami-ochre-nu.vercel.app/share/o3zAba1V/guangzhengli"&gt;Dashboard&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="create-a-database"&gt;Create a database&lt;/h2&gt;
+&lt;p&gt;The database use &lt;a href="https://supabase.com/docs/guides/database"&gt;postgres&lt;/a&gt; with 500M storage limit provided by &lt;a href="https://app.supabase.com/"&gt;supabase&lt;/a&gt;. You can create a supabase account, click &lt;code&gt;new project&lt;/code&gt;, and enter the database passowrd to create an ProgresSQL database service.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/cN3Zg4.png" alt="cN3Zg4"&gt;&lt;/p&gt;
+&lt;p&gt;It will take a few minutes to create the database service, and you can get the &lt;code&gt;DATABASE_URL&lt;/code&gt; after it&amp;rsquo;s done.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/image-20220815182141638.png" alt="image-20220815182141638"&gt;&lt;/p&gt;
+&lt;h2 id="hosting-umami"&gt;Hosting umami&lt;/h2&gt;
+&lt;p&gt;The &lt;a href="https://umami.is/"&gt;umami&lt;/a&gt; service is hosted with &lt;a href="https://vercel.com/"&gt;vercel&lt;/a&gt;, Once you have created the database instance, you can deploy the umami service with click deploy button in the &lt;a href="https://umami.is/docs/running-on-vercel"&gt;Running on Vercel&lt;/a&gt; document.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Fork the &lt;a href="https://github.com/mikecao/umami"&gt;https://github.com/mikecao/umami&lt;/a&gt; project to your GitHub account.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create an account on Vercel.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;From the dashboard page click Import Project then specify the URL to your fork of the project on GitHub.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add the required environment variables to your Vercel project. These values are defined in the Configure umami step from Install.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;DATABASE_URL: Connection string for your database. This is the only required variable.&lt;/li&gt;
+&lt;li&gt;TRACKER_SCRIPT_NAME: Allows you to assign a custom name to the tracker script different from the default &lt;code&gt;umami&lt;/code&gt;. This is to help you avoid some ad-blockers. I used &lt;code&gt;hugo-ladder&lt;/code&gt; on this project.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Enter &lt;code&gt;yarn build &amp;amp;&amp;amp; yarn update-db&lt;/code&gt; to the &lt;code&gt;BUILD COMMAND&lt;/code&gt;, which will migrate the tables of umami to database automatically.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Deploy and visit your application at &lt;!-- raw HTML omitted --&gt;.vercel.app.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Follow the Getting started guide starting from the Login step and be sure to change the default password.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/gePzXI.png" alt="gePzXI"&gt;&lt;/p&gt;
+&lt;p&gt;Of course, if you want to import tables yourself, you can also get the tables from here &lt;a href="https://github.com/umami-software/umami/blob/master/sql/schema.postgresql.sql"&gt;https://github.com/umami-software/umami/blob/master/sql/schema.postgresql.sql&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="umami-configuration"&gt;umami configuration&lt;/h2&gt;
+&lt;p&gt;After deploying umami in vercel you will get a &lt;code&gt;&amp;lt;deploy-id&amp;gt;.vercel.app&lt;/code&gt; address which login with the default account: &lt;em&gt;admin&lt;/em&gt; and password: &lt;em&gt;umami&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;You can change the default password and &lt;code&gt;Add webiste&lt;/code&gt;, enter the &lt;code&gt;Name&lt;/code&gt; and &lt;code&gt;Domain&lt;/code&gt;, and click &lt;code&gt;enable share URL&lt;/code&gt; so that anyone can access the dashboard.&lt;/p&gt;
+&lt;p&gt;Then you can get &lt;code&gt;data-website-id&lt;/code&gt; and &lt;code&gt;src&lt;/code&gt; values by click &lt;code&gt;Get tracking code&lt;/code&gt;，enter the value to the &lt;code&gt;hugo-ladder&lt;/code&gt; configuration &lt;code&gt;params.analytics.umami.website_id&lt;/code&gt; , &lt;code&gt;params.analytics.umami.url&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/OZcU7U.png" alt="OZcU7U"&gt;&lt;/p&gt;
+&lt;p&gt;In the end, you can get the website statistics analytics dashboard.🎉🎉🎉&lt;/p&gt;
+&lt;p&gt;Link to original article: &lt;a href="https://guangzhengli.com/en/blog/en/how-to-integrate-umami-for-free-to-blog-site/"&gt;https://guangzhengli.com/en/blog/en/how-to-integrate-umami-for-free-to-blog-site/&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Multi language support</title><link>https://kinsonyang.github.io/blog/multi-language/</link><pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate><author>iguangzhengli@gmail.com (Guangzheng Li)</author><guid>https://kinsonyang.github.io/blog/multi-language/</guid><description>&lt;p&gt;This article is about multilingual support.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://kinsonyang.github.io/blog/multi-language/#available-languages"&gt;Available Languages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://kinsonyang.github.io/blog/multi-language/#configure-languages"&gt;Configure languages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://kinsonyang.github.io/blog/multi-language/#translation-file-example"&gt;Translation File Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="available-languages"&gt;Available Languages&lt;/h2&gt;
+&lt;p&gt;This theme supports the following languages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;English&lt;/li&gt;
+&lt;li&gt;Simplified Chinese&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="configure-languages"&gt;Configure languages&lt;/h2&gt;
+&lt;p&gt;Go to &lt;a href="https://gohugo.io/content-management/multilingual/#configure-languages"&gt;this Hugo documentation page&lt;/a&gt; to configure one or multiple languages for your website.&lt;/p&gt;
+&lt;h2 id="translation-file-example"&gt;Translation File Example&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-toml" data-lang="toml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[&lt;span style="color:#a6e22e"&gt;blog&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;one&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;blog&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;other&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;blog&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[&lt;span style="color:#a6e22e"&gt;tags&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;one&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;tag&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;other&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;tags&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[&lt;span style="color:#a6e22e"&gt;archive&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;one&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;archive&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;other&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;archive&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[&lt;span style="color:#a6e22e"&gt;series&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;one&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;series&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;other&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;series&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[&lt;span style="color:#a6e22e"&gt;reading_time&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;one&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;One minute&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;other&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;{{ .Count }} min&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[&lt;span style="color:#a6e22e"&gt;word_count&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;one&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;one word&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;other&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;{{ .Count }} words&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[&lt;span style="color:#a6e22e"&gt;related_resources&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;other&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;Related Resources&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[&lt;span style="color:#a6e22e"&gt;featured_posts&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;one&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;Featured Posts&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;other&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;Featured Posts&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-toml" data-lang="toml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[&lt;span style="color:#a6e22e"&gt;blog&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;one&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;文章&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;other&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;文章&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[&lt;span style="color:#a6e22e"&gt;tags&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;one&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;分类&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;other&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;分类&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[&lt;span style="color:#a6e22e"&gt;archive&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;one&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;历史文章&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;other&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;历史文章&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[&lt;span style="color:#a6e22e"&gt;series&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;one&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;系列文章&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;other&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;系列文章&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[&lt;span style="color:#a6e22e"&gt;reading_time&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;one&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;1 分钟&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;other&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;{{ .Count }} 分钟&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[&lt;span style="color:#a6e22e"&gt;word_count&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;one&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;字&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;other&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;{{ .Count }} 字&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[&lt;span style="color:#a6e22e"&gt;related_resources&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;one&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;相关系列文章推荐&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;other&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;相关系列文章推荐&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[&lt;span style="color:#a6e22e"&gt;featured_posts&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;one&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;推荐阅读&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;other&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;推荐阅读&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Rich Content</title><link>https://kinsonyang.github.io/blog/rich-content/</link><pubDate>Mon, 18 Jul 2022 20:29:08 +0000</pubDate><author>iguangzhengli@gmail.com (Guangzheng Li)</author><guid>https://kinsonyang.github.io/blog/rich-content/</guid><description>&lt;h2 id="figure"&gt;figure&lt;/h2&gt;
+&lt;h2 id="ref-in-posts"&gt;ref in posts&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://kinsonyang.github.io/blog/videos/"&gt;Neat&lt;/a&gt;
+&lt;a href="https://kinsonyang.github.io/blog/videos/#who"&gt;Who&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="hide-toggle"&gt;hide toggle&lt;/h2&gt;
+&lt;p&gt;
+&lt;details class="toggle"&gt;
+&lt;summary markdown="span"&gt;summary&lt;/summary&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hide value
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/details&gt;
+&lt;/p&gt;
+&lt;h3 id="without-summary"&gt;without summary&lt;/h3&gt;
+&lt;p&gt;
+&lt;details class="toggle"&gt;
+&lt;summary markdown="span"&gt;Toggle&lt;/summary&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hide value
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/details&gt;
+&lt;/p&gt;
+&lt;h2 id="tab-group-code"&gt;tab group code&lt;/h2&gt;
+&lt;div class="tabs tabs-left"&gt;
+&lt;style&gt;
+.tabs input#tab-0-0:checked ~ .tab-content-0-0 {
+display: block;
+}
+&lt;/style&gt;
+&lt;input type="radio" class="tab-input" name="tab-select-0" id="tab-0-0" checked/&gt;
+&lt;label for="tab-0-0" class="tab-label"&gt;Hello&lt;/label&gt;
+&lt;div class="tab-content tab-content-0-0"&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Hello World!
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.tabs input#tab-0-1:checked ~ .tab-content-0-1 {
+display: block;
+}
+&lt;/style&gt;
+&lt;input type="radio" class="tab-input" name="tab-select-0" id="tab-0-1" /&gt;
+&lt;label for="tab-0-1" class="tab-label"&gt;Goodbye&lt;/label&gt;
+&lt;div class="tab-content tab-content-0-1"&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Goodbye Everybody!
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id="tab-group"&gt;tab group&lt;/h2&gt;
+&lt;div class="tabs tabs-left"&gt;
+&lt;style&gt;
+.tabs input#tab-1-0:checked ~ .tab-content-1-0 {
+display: block;
+}
+&lt;/style&gt;
+&lt;input type="radio" class="tab-input" name="tab-select-1" id="tab-1-0" checked/&gt;
+&lt;label for="tab-1-0" class="tab-label"&gt;MacOS&lt;/label&gt;
+&lt;div class="tab-content tab-content-1-0"&gt;
+brew install hugo
+&lt;/div&gt;
+&lt;style&gt;
+.tabs input#tab-1-1:checked ~ .tab-content-1-1 {
+display: block;
+}
+&lt;/style&gt;
+&lt;input type="radio" class="tab-input" name="tab-select-1" id="tab-1-1" /&gt;
+&lt;label for="tab-1-1" class="tab-label"&gt;Linux&lt;/label&gt;
+&lt;div class="tab-content tab-content-1-1"&gt;
+apt install hugo
+&lt;/div&gt;
+&lt;style&gt;
+.tabs input#tab-1-2:checked ~ .tab-content-1-2 {
+display: block;
+}
+&lt;/style&gt;
+&lt;input type="radio" class="tab-input" name="tab-select-1" id="tab-1-2" /&gt;
+&lt;label for="tab-1-2" class="tab-label"&gt;Window&lt;/label&gt;
+&lt;div class="tab-content tab-content-1-2"&gt;
+window install hugo
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>
