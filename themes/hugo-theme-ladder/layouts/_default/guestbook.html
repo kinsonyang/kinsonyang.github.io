@@ -1,7 +1,7 @@
 {{ define "content" }}
 <div class="guestbook">
-  <h1>{{ .Site.Params.guestbook.title }}</h1>
-  <p>{{ .Site.Params.guestbook.description }}</p>
+  <h1>{{ site.Params.guestbook.title }}</h1>
+  <p>{{ site.Params.guestbook.description }}</p>
   {{ partial "common/utteranc.html" . }}
   {{ partial "common/giscus.html" . }}
 </div>

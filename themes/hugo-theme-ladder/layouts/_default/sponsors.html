@@ -1,30 +1,30 @@
 {{ define "content" }}
 <div class="guestbook">
-    <h1>{{ .Site.Params.sponsors.title }}</h1>
-    <p>{{ .Site.Params.sponsors.description }}</p>
+    <h1>{{ site.Params.sponsors.title }}</h1>
+    <p>{{ site.Params.sponsors.description }}</p>
 
-    {{ if .Site.Params.sponsors.buymeacoffee.enable }}
+    {{ if site.Params.sponsors.buymeacoffee.enable }}
     <div class="sponsors-buymeacoffee-icon">
-        <a href="{{.Site.Params.sponsors.buymeacoffee.url}}"><img
-            src="{{.Site.Params.sponsors.buymeacoffee.buttom_api}}" /></a>
+        <a href="{{site.Params.sponsors.buymeacoffee.url}}"><img
+            src="{{site.Params.sponsors.buymeacoffee.buttom_api}}" /></a>
     </div>
 
     <div class="sponsors-buymeacoffee-qr">
-        <a><img src="{{.Site.Params.sponsors.buymeacoffee.qr}}" /></a>
+        <a><img src="{{site.Params.sponsors.buymeacoffee.qr}}" /></a>
     </div>
     <div class="sponosrs-text">Buy me a coffee</div>
     {{ end }}
 
-    {{ if .Site.Params.sponsors.wechat.enable }}
+    {{ if site.Params.sponsors.wechat.enable }}
     <div class="sponsors-wechat-qr">
-        <a><img src="{{.Site.Params.sponsors.wechat.qr}}"></a>
+        <a><img src="{{site.Params.sponsors.wechat.qr}}"></a>
     </div>
     <div class="sponosrs-text">微信支付</div>
     {{ end }}
 
-    {{ if .Site.Params.sponsors.alipay.enable }}
+    {{ if site.Params.sponsors.alipay.enable }}
     <div class="sponsors-alipay-qr">
-        <a><img src="{{.Site.Params.sponsors.alipay.qr}}"></a>
+        <a><img src="{{site.Params.sponsors.alipay.qr}}"></a>
     </div>
     <div class="sponosrs-text">支付宝</div>
     {{ end }}

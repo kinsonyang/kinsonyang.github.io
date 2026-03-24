@@ -10,9 +10,10 @@ googleAnalytics: G-4WXJ5TEK2S
 paginate: 10
 hasCJKLanguage: true
 copyright: "2023 GuangzhengLi All rights reserved"
-Author:
-  name: "Guangzheng Li"
-  email: "iguangzhengli@gmail.com"
+# Author moved to params below
+# Author:
+#   name: "Guangzheng Li"
+#   email: "iguangzhengli@gmail.com"
 menu:
   main:
     - name: Blog
@@ -36,7 +37,9 @@ menu:
 params:
   brand: HOME
   avatarURL: /images/avatar.png
-  author: Hugo Ladder
+  author:
+    name: "Guangzheng Li"
+    email: "iguangzhengli@gmail.com"
   authorDescription: A clean, fast hugo theme focused on Reading
   info: Ladder is a clean, simple but beautiful theme with awesome features
   favicon: /images/avatar.png

@@ -3,12 +3,12 @@
 <div class="related-resources">
   {{ range .Params.series }}
     {{ $name := . | urlize }}
-    {{ $series := index $.Site.Taxonomies.series $name }}
+    {{ $series := index site.Taxonomies.series $name }}
     {{ if gt (len $series.Pages) 1 }}
     <h3>{{- i18n "related_resources" -}}</h3>
       <nav>
         <ul>
-        {{ $maxItems := $.Site.Params.maxRelatedResources | default 10 }}
+        {{ $maxItems := site.Params.maxRelatedResources | default 10 }}
         {{ range first (add $maxItems 1) $series.Pages }}
           {{ if ne .RelPermalink $currentPageUrl }}
             <li>
